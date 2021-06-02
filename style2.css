@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+.container {
+    background-color: #F5F5F5;
+    width: 680px;
+    height: 430px;
+    display: block;
+    margin: 20% auto;
+}
+
+.filter {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 35px;
+    padding: 15px 25px 10px;
+
+}
+
+.dividing-line {
+    margin: 20px;
+    border-color: #E4E4E4 ;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-width: 2px;
+}
+
+.items {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 25px 25px;
+}
+
+li {
+    display: inline;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 0 4px;
+    line-height: 2.8;
+    white-space: nowrap;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 1px #E8E8E8;
+}
