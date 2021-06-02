@@ -3,8 +3,8 @@ body {
 }
 .container {
     background-color: #F5F5F5;
-    width: 680px;
-    height: 430px;
+    width: 340px;
+    height: 215px;
     display: block;
     margin: 20% auto;
 }
@@ -12,13 +12,13 @@ body {
 .filter {
     font-family: 'Merriweather', serif;
     font-weight: 900;
-    font-size: 35px;
-    padding: 15px 25px 10px;
+    font-size: 15px;
+    padding: 10px 10px 5px 10px;
 
 }
 
 .dividing-line {
-    margin: 20px;
+    margin: 10px;
     border-color: #E4E4E4 ;
     border-top-style: solid;
     border-right-style: none;
@@ -29,17 +29,18 @@ body {
 
 .items {
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    padding: 25px 25px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 15px 10px;
 }
 
 li {
     display: inline;
     background-color: white;
-    padding: 10px 15px;
-    margin: 0 4px;
-    line-height: 2.8;
+    padding: 5px 8px;
+    margin: 0 2px;
+    line-height: 2.9;
     white-space: nowrap;
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px 1px #E8E8E8;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px 3px #E8E8E8;
 }
