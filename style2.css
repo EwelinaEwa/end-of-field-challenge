@@ -44,3 +44,12 @@ li {
     border-radius: 4px;
     box-shadow: 2px 2px 8px 3px #E8E8E8;
 }
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    padding: 0 20px;
+}

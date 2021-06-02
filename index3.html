@@ -6,23 +6,25 @@
     <title>Interface 2 - complex</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style3.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <header>
-        <p>English</p>
-        <img src="images/united-kingdom.png" alt="Flag">
-        <p>CLOSE</p>
-        <img src="images/close.png" alt="Close">
+<section class="container">
+    <header class="flex first-line">
+        <p class="language">English</p>
+        <img class="flag" src="images/united-kingdom.png" alt="Flag">
+        <p class="close">CLOSE</p>
+        <img class="cross" src="images/close.png" alt="Close">
     </header>
-    <main>
-        <ul>
+    <main class="flex">
+        <ul class="menu">
             <li>Register / Log in</li>
             <li>Home</li>
             <li>Winners</li>
             <li>Nominees</li>
             <li>Collections</li>
-            <li>Academy <span>BETA</span></li>
+            <li class="highlight">Academy <span class="beta">BETA</span></li>
             <li>Professional directory <span>6</span></li>
             <li>Jobs & Talent <span>3</span></li>
             <li>Blog</li>
@@ -31,9 +33,10 @@
             <li>Conferences</li>
         </ul>
     </main>
-    <footer>
+    <footer class="flex">
         <p>Toronto / Cancelled</p>
         <p>San Francisco / Cancelled</p>
     </footer>
+</section>
 </body>
 </html>

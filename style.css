@@ -34,3 +34,12 @@ body {
     white-space: pre;
 
 }
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    padding: 0 20px;
+}
