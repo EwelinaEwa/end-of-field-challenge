@@ -9,7 +9,7 @@ body {
 .flex {
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 20% auto;
 }
 
 .advantage {
@@ -26,11 +26,48 @@ body {
 }
 
 .info-line {
-    white-space: pre;
-}
-
-pre {
     line-height: 1.5;
     text-align: center;
+    white-space: pre;
+
 }
 
+@media only screen and (max-width: 1440px) {
+    .info-line {
+        font-size: 30px;
+    }
+    .icons {
+        width: 20%
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .info-line {
+        font-size: 20px;
+    }
+    .icons {
+        padding-bottom: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .flex {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+    .icons {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .advantage {
+        position: relative;
+    }
+    .info-line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
